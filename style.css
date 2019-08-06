@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+}
+
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    margin-top: 10px;
+    width: 400px;
+    text-align: center;
+    font-size: 3em;
+    box-shadow: 4px 4px 5px #888888 /* 4px top right and 5px bottom */
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s; /* this property gives the image some effects*/
+}
+
+img:hover{
+    transform: scale(1.3)  /* this property relies on the transition property to enlarges the img by around */
+}
+
